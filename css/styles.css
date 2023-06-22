@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins,sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(184, 116, 91);
+  gap: 2rem;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 2rem; */
+}
+
+#newTaskInput{
+  padding: 1rem;
+}
+
+button{
+  color: red;
+}
+.btn1{
+  padding: 1rem;
+  cursor: pointer;
+}
